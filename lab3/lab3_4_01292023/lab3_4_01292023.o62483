@@ -1,0 +1,83 @@
+Loading python/3.10.5
+  Loading requirement: tcl/8.6.10
+Loading python/3.10.5
+  Loading requirement: tcl/8.6.10
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    1 cores,   24 groups
+ using from now: INCAR     
+ vasp.5.4.1 05Feb16 (build Apr 25 2018 11:37:45) complex                        
+  
+ POSCAR found type information on POSCAR  C  O 
+ POSCAR found :  2 types and       2 ions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  C  O 
+ POSCAR found :  2 types and       2 ions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      The number of bands has been changed from the values supplied          |
+|      in the INCAR file. This is a result of running the parallel version.   |
+|      The orbitals not found in the WAVECAR file will be initialized with    |
+|      random numbers, which is usually adequate. For correlated              |
+|      calculations, however, you should redo the groundstate calculation.    |
+|      I found NBANDS    =        8  now  NBANDS  =      24                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.412488379694E+03   -0.41249E+03   -0.19397E+04    48   0.239E+02    0.440E+01
+DAV:   2    -0.899944279028E+03   -0.48746E+03   -0.72103E+03    96   0.167E+02    0.621E+01
+DAV:   3    -0.963417664806E+03   -0.63473E+02   -0.11941E+03    96   0.150E+02    0.104E+02
+DAV:   4    -0.961073639361E+03    0.23440E+01   -0.19184E+01    72   0.188E+01    0.101E+02
+DAV:   5    -0.958581570960E+03    0.24921E+01   -0.15322E-01    96   0.195E+00    0.101E+02
+DAV:   6    -0.716572249237E+03    0.24201E+03   -0.75337E+01    72   0.397E+01    0.874E+01
+DAV:   7    -0.123293855433E+03    0.59328E+03   -0.64444E+02    72   0.599E+01    0.566E+02
+DAV:   8    -0.347184111872E+03   -0.22389E+03   -0.20162E+03    48   0.114E+02    0.766E+02
+DAV:   9    -0.383688322713E+03   -0.36504E+02   -0.11422E+02    72   0.484E+01    0.758E+02
+DAV:  10    -0.468216791485E+03   -0.84528E+02   -0.29754E+01    96   0.140E+01    0.764E+02
+DAV:  11    -0.656754283691E+03   -0.18854E+03   -0.18044E+01    48   0.137E+01    0.756E+02
+DAV:  12    -0.322995085062E+04   -0.25732E+04   -0.10653E+04    48   0.338E+02    0.654E+02
+DAV:  13    -0.288593255595E+04    0.34402E+03   -0.54717E+02    48   0.142E+02    0.660E+02
+DAV:  14    -0.263376405081E+04    0.25217E+03   -0.57182E+01    48   0.482E+01    0.325E+02
+ ERROR FEXCP: supplied Exchange-correletion table
+    is too small, maximal index :        4114
+Loading python/3.10.5
+  Loading requirement: tcl/8.6.10

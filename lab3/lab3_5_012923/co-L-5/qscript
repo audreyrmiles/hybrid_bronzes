@@ -1,0 +1,7 @@
+#!/bin/bash
+module load vasp
+
+cd /afs/crc.nd.edu/user/a/amiles2/research/ASE/lab3/lab3_5_012923/co-L-5
+
+mpirun -np  24 vasp_neb
+#end 

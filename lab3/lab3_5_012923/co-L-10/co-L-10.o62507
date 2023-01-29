@@ -1,0 +1,62 @@
+Loading python/3.10.5
+  Loading requirement: tcl/8.6.10
+Loading python/3.10.5
+  Loading requirement: tcl/8.6.10
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    1 cores,   24 groups
+ using from now: INCAR     
+ vasp.5.4.1 05Feb16 (build Apr 25 2018 11:37:45) complex                        
+  
+ POSCAR found type information on POSCAR  C  O 
+ POSCAR found :  2 types and       2 ions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  C  O 
+ POSCAR found :  2 types and       2 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.799776407589E+02    0.79978E+02   -0.21153E+03    48   0.166E+02
+DAV:   2    -0.138645675440E+02   -0.93842E+02   -0.93842E+02    96   0.489E+01
+DAV:   3    -0.152462939598E+02   -0.13817E+01   -0.13817E+01    48   0.118E+01
+DAV:   4    -0.152528339445E+02   -0.65400E-02   -0.65400E-02    48   0.959E-01
+DAV:   5    -0.152528888660E+02   -0.54922E-04   -0.54921E-04    48   0.843E-02    0.617E+00
+DAV:   6    -0.147885709864E+02    0.46432E+00   -0.37379E+00    96   0.465E+00    0.355E+00
+DAV:   7    -0.146789682899E+02    0.10960E+00   -0.77138E-01    96   0.196E+00    0.195E+00
+DAV:   8    -0.146415770054E+02    0.37391E-01   -0.14926E-01    72   0.105E+00    0.347E-01
+DAV:   9    -0.146414898796E+02    0.87126E-04   -0.38308E-03    48   0.195E-01    0.568E-02
+DAV:  10    -0.146422303886E+02   -0.74051E-03   -0.14636E-04    48   0.412E-02    0.293E-02
+DAV:  11    -0.146438587435E+02   -0.16284E-02   -0.42460E-04    48   0.395E-02    0.143E-02
+DAV:  12    -0.146445118117E+02   -0.65307E-03   -0.43967E-05    72   0.160E-02    0.104E-02
+DAV:  13    -0.146452783005E+02   -0.76649E-03   -0.98016E-05    48   0.189E-02    0.438E-03
+DAV:  14    -0.146455968331E+02   -0.31853E-03   -0.25214E-05    96   0.935E-03    0.327E-03
+DAV:  15    -0.146456644356E+02   -0.67603E-04   -0.37138E-06    48   0.478E-03
+   1 F= -.14645664E+02 E0= -.14649530E+02  d E =0.115958E-01
+ writing wavefunctions
+Loading python/3.10.5
+  Loading requirement: tcl/8.6.10
